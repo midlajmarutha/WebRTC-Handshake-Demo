@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display: flex; gap: 10px;">
+        <div style="background-color: gray; border: solid 2px rgb(70, 70, 70); width: fit-content; display: flex;">
+            <video width="500px" id="user-1" autoplay></video>  
+        </div>
+        <div style="background-color: gray; border: solid 2px rgb(70, 70, 70); width: fit-content; display: flex;">
+            <video id="user-2" width="500px" autoplay></video>
+        </div>
+    </div>
+    <br>
+    <button id="create-offer">Create Offer SDP</button>
+    <br>
+    <textarea name="" placeholder="Or paste offer SDP here" id="offer" cols="30" rows="10"></textarea>
+    <br>
+    <button id="create-answer">Create Answer SDP</button>
+    <br>
+    <textarea name="" id="answer" cols="30" rows="10" placeholder="Or place answer SDP here"></textarea>
+    <br>
+    <button id="add-answer">add answer</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
